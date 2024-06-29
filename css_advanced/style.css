@@ -93,3 +93,11 @@ div > span {
   margin-right: auto;
   margin-top: 150px;
 }
+
+.second-section {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  background-color: 08F66A3;
+  padding-top: 20px;
+}
