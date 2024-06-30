@@ -45,13 +45,6 @@ a {
   margin-bottom: 0px;
 }
 
-/* .schooled-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-*/
-
 .smiles {
   display: flex;
   justify-content: center;
@@ -96,8 +89,61 @@ div > span {
 
 .second-section {
   display: flex;
-  height: 200px;
+  height: 300px;
   justify-content: center;
+  align-items: center;
   background-color: 08F66A3;
   padding-top: 20px;
+}
+
+.pop-box {
+  margin-left: 25px;
+  width: 250px;
+  height: 350px;
+}
+
+.tiny-philip {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.philip-icon {
+  display: flex;
+  padding-left: 10px;
+}
+
+.philip-name {
+  color: 08F66A3;
+  margin-left: 10px;
+}
+
+.rating {
+  display: flex;
+  margin-left: 10px;
+}
+
+.duration {
+  margin-left: 100px;
+}
+
+.rating1 {
+  height: 10px;
+  margin-top: 12px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 180px;
+  border-radius: 5px;
 }
