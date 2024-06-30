@@ -147,3 +147,36 @@ div > span {
   height: 180px;
   border-radius: 5px;
 }
+
+.lorem-con {
+  height: 155px;
+  width: 260px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.fourth-section {
+  background-color: #071629;
+  height: 450px;
+}
+.fourth-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.smiley {
+  margin-left: 50px;
+}
+
+.lorem {
+  margin-left: 30px;
+}
+
+.lorem-text {
+  margin-left: 10px;
+  margin-right: 80px;
+  line-height: 2;
+}
