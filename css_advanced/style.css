@@ -180,3 +180,19 @@ div > span {
   margin-right: 80px;
   line-height: 2;
 }
+.first-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  width: 300px;
+}
+.paragraph {
+  color: #a6a6a8;
+}
