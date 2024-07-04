@@ -51,3 +51,69 @@ Happy Listening!
 ---
 
 _This README file was last updated on July 2, 2024._
+
+@media only screen and (max-width: 480px) {
+body {
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+nav ul {
+display: none;
+}
+
+.size-6 {
+display: inline;
+position: relative;
+margin-left: 200px;
+margin-top: 20px;
+}
+
+nav {
+display: flex;
+flex-direction: row;
+}
+
+nav img {
+margin-left: 100px;
+}
+
+.hero-section {
+}
+}
+
+@media only screen and (max-width: 480px) {
+body {
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+nav ul {
+display: none;
+}
+
+.size-6 {
+display: inline;
+position: relative;
+margin-left: 200px;
+margin-top: 20px;
+}
+
+nav {
+display: flex;
+flex-direction: row;
+}
+
+nav img {
+margin-left: 100px;
+}
+
+.hero-section {
+}
+}
