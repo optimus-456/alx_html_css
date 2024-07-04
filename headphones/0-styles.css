@@ -1,6 +1,13 @@
 body {
-  background-image: url(headphones_hero_1.jpg);
   font-family: "Source Code Pro";
+  padding: 0px;
+  margin: 0px;
+}
+
+.section-one {
+  background-image: url(headphones_hero_1.jpg);
+  margin: 0px;
+  padding: 0px;
 }
 
 nav {
@@ -8,7 +15,7 @@ nav {
   justify-content: space-between;
   margin-right: 100px;
   margin-left: 100px;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 nav ul {
@@ -28,7 +35,8 @@ nav ul {
   justify-content: center;
   align-items: center;
   margin-top: 200px;
-  margin-left: 400px;
+  margin-left: 430px;
+  padding-bottom: 50px;
 }
 
 #call-button {
