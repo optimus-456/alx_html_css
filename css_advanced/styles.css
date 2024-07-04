@@ -1,0 +1,225 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 100px;
+  overflow: hidden;
+  float: right;
+  display: flex;
+}
+
+li {
+  padding-right: 50px;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#logo {
+  height: 25px;
+  margin-top: 30px;
+  padding-left: 200px;
+}
+
+.images {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.purple-section {
+  background-image: url("./object.png");
+  margin: 0px;
+  padding: 0px;
+}
+
+#schooled {
+  font-size: 80px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  letter-spacing: 10px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.smiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div > span {
+  padding-right: 50px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+#register-div {
+  text-align: center;
+  margin-top: 50px;
+}
+#register-div > button {
+  height: 44px;
+  width: 162px;
+  border-radius: 25px;
+  background-color: 08F66A3;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+#pros {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  color: white;
+}
+
+.second-section {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: 08F66A3;
+  padding-top: 20px;
+}
+
+.pop-box {
+  margin-left: 25px;
+  width: 250px;
+  height: 350px;
+}
+
+.tiny-philip {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.philip-icon {
+  display: flex;
+  padding-left: 10px;
+}
+
+.philip-name {
+  color: 08F66A3;
+  margin-left: 10px;
+}
+
+.rating {
+  display: flex;
+  margin-left: 10px;
+}
+
+.duration {
+  margin-left: 100px;
+}
+
+.rating1 {
+  height: 10px;
+  margin-top: 12px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.lorem-con {
+  height: 155px;
+  width: 260px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.fourth-section {
+  background-color: #071629;
+  height: 450px;
+}
+.fourth-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.smiley {
+  margin-left: 50px;
+}
+
+.lorem {
+  margin-left: 30px;
+}
+
+.lorem-text {
+  margin-left: 10px;
+  margin-right: 80px;
+  line-height: 2;
+}
+.first-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  width: 300px;
+}
+.paragraph {
+  color: #a6a6a8;
+}
+.last-section {
+  background-color: #071629;
+  height: 25%;
+}
+
+.media {
+  float: right;
+  color: white;
+  margin-right: 300px;
+  margin-top: 59px;
+}
+.fa-brands {
+  margin-left: 10px;
+  height: 50px;
+}
+.last-par {
+  margin-left: 650px;
+  margin-top: 50px;
+  color: #a6a6a8;
+}
+.award-owner {
+  margin-left: 20px;
+}
+.award-name {
+  margin-left: 20px;
+}
