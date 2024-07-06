@@ -1,0 +1,400 @@
+body {
+  font-family: "Source Code Pro", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.section-one {
+  background-image: url("headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure the section takes at least the full viewport height */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  padding-top: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.hero-section {
+  color: white;
+  width: 637px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto 0; /* Center horizontally */
+  padding-bottom: 50px;
+}
+
+#call-button {
+  width: 162px;
+  height: 44px;
+  background-color: #ff6565;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 15px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+#hero-paragraph {
+  margin-top: 60px;
+  font-size: 13px;
+  text-align: left;
+}
+.hero-section h3 {
+  margin: 0 0 20px;
+  font-size: 15px;
+}
+.hero-section h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.size-6 {
+  height: 50px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 20px;
+  display: none;
+}
+
+/* Section number 2 */
+.service-box {
+  height: 207px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+}
+
+.services {
+  margin: 150px 0 0 250px;
+  width: 1002px;
+  height: 103px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.what-we-do {
+  height: 184px;
+  width: 637px;
+  margin: 15px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-we-do h2 {
+  font-size: 25px;
+}
+
+/* Third Section */
+.third-section {
+  height: 600px;
+  background-image: url(headphones_hero_2.jpg);
+  background-size: cover;
+}
+
+.result-con {
+  width: 637px;
+  display: flex;
+  padding-top: 50px;
+  margin-left: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pentagon {
+  background-image: url(pentagone.png);
+  background-size: cover;
+  height: 150px;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.profit {
+  display: flex;
+  width: 1200px;
+  margin-top: 130px;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rate {
+  font-size: 38px;
+  font-weight: bold;
+  height: 15px;
+}
+
+/* Fourth Section */
+.form-container {
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 600px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px;
+  margin-left: 80px;
+  margin-top: 60px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff6565;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+/* Last-Section */
+footer {
+  background-color: #071629;
+  height: 243px;
+}
+
+.more {
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  color: rgb(139, 130, 130);
+  text-align: center;
+  margin-top: 80px;
+}
+
+logo img {
+  height: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  nav img {
+    width: 80%;
+    margin-left: 10px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .size-6 {
+    display: inline-block;
+    margin: auto;
+    margin-right: 10px;
+  }
+
+  .hero-section {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 20px;
+  }
+
+  .hero-section h3 {
+    font-size: 13px;
+  }
+
+  #hero-paragraph {
+    font-size: 18px;
+    margin-top: 80px;
+  }
+
+  #call-button {
+    width: 40%;
+    height: auto;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  /* Second Section */
+
+  .services {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+  }
+
+  .service-box {
+    width: 180px;
+    height: 207px;
+    margin: 10px 0;
+  }
+
+  .what-we-do {
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .what-we-do h2 {
+    font-size: 20px;
+  }
+
+  /* Fourth Section */
+  .form-container {
+    margin: 20px auto; /* Center the form horizontally */
+    width: 50%; /* Adjust the width to fit the screen */
+  }
+
+  button {
+    margin: 20px auto; /* Center the button horizontally */
+    width: 70%; /* Make the button full width */
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .third-section {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .result-con {
+    width: 80%;
+    padding-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .pentagon {
+    height: 150px;
+    width: 170px;
+  }
+
+  .profit {
+    flex-direction: column;
+    width: 70%;
+    height: 800px;
+    margin-top: 20px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .rate {
+    font-size: 32px;
+    height: auto;
+  }
+
+  .pentagon-lorem {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .more {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  footer {
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  footer p {
+    margin-top: 20px;
+  }
+
+  .logo {
+    margin-top: 0px;
+  }
+}
